@@ -8,6 +8,15 @@ font-family: 'Source Sans Pro', sans-serif;
  */
 
 /* root styling */
+:root {
+    --light:#f8f9fa;
+    --secondary:#adb5bd;
+    --dark:#343a40;
+    --primary-color:#f15bb5;
+    --secondary-color:#2ec4b6;
+    --border:#e9ecef;
+}
+
 body {
     font-family: 'Source Sans Pro', sans-serif; 
     padding: 0;
@@ -22,5 +31,31 @@ a {
     box-sizing: border-box;
 }
 /* global styling */
+.text-light {
+    color: var(--light);
+}
 
+.text-secondary {
+    color: var(--secondary);
+}
+
+.text-dark {
+    color:var(--dark);
+}
+
+.text-primary {
+    color:var(--primary-color);
+}
+
+.bg-light{
+    background-color: var(--light);
+}
 /* section styling */
+
+/*-- Navigation Menu -- */
+.navbar {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
