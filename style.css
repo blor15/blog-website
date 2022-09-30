@@ -50,6 +50,12 @@ a {
 .bg-light{
     background-color: var(--light);
 }
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: auto;
+}
 /* section styling */
 
 /*-- Navigation Menu -- */
@@ -58,4 +64,26 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 10px;
+}
+
+.nav-brand {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    align-self: center;
+    font-size: 32px;
+}
+
+.collapse {
+    align-self: center;
+}
+
+.nav-link {
+    font-size: 18px;
+    margin: 12px;
+    color: var(--dark);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.nav-link:hover {
+    color: var(--primary-color);
 }
