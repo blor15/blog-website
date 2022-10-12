@@ -101,6 +101,7 @@ a {
     outline: none;
 }
 
+/* Search button */
 form.search-button input[type=text] {
     padding: 10px;
     font-size: 17px;
@@ -134,8 +135,30 @@ form.search-button::after {
 }
 /* Media Query */
 
+@media (max-width: 992px) {
+    .navbar{
+        flex: column;
+    }
+}
+
 @media(max-width : 574px) {
     .toggle-button{
         display: initial;
+    }
+
+    .collapse {
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    .collapse .nav-link{
+        display: block;
+    }
+    .search-button {
+        border-right: none;
+    }
+
+    .collapse-toggle {
+        max-height: 500px;
     }
 }
