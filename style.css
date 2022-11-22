@@ -56,6 +56,10 @@ a {
     padding: 0 15px;
     margin: auto;
 }
+
+.img-fluid {
+    width: 100%;
+}
 /* section styling */
 
 /*-- Navigation Menu -- */
@@ -145,10 +149,11 @@ form.search-button::after {
     .toggle-button{
         display: initial;
     }
-
+/* Transition makes the nav bar appear slower or faster when clicked on */
     .collapse {
         max-height: 0;
         overflow: hidden;
+        transition: all 0.8s ease-in;
     }
 
     .collapse .nav-link{
