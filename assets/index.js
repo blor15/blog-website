@@ -5,3 +5,9 @@ toggle.addEventListener("click", function () {
   collapse.forEach((col) => col.classList.toggle("collapse-toggle"));
   console.log(collapse);
 });
+
+// Masonry library
+new Masonry("#posts .grid", {
+  itemSelector: ".grid-item",
+  gutter: 20,
+});
