@@ -11,3 +11,15 @@ new Masonry("#posts .grid", {
   itemSelector: ".grid-item",
   gutter: 20,
 });
+
+// initializing Swiper
+
+const swiper = new Swiper(".swiper-container", {
+  // Optional parameters
+  direction: "horizontal",
+  loop: true,
+  slidesPerView: 5,
+  autoplay: {
+    delay: 3000,
+  },
+});

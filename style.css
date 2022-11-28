@@ -89,6 +89,16 @@ a {
 .text-right {
     text-align: right;
 }
+
+.btn {
+    padding: 15px 20px;
+    border: none;
+}
+
+.btn-primary {
+    border-radius: 4px;
+    background-color: var(--secondary-color);
+}
 /* global styling */
 
 /* section styling */
@@ -196,6 +206,11 @@ form.search-button::after {
         flex: column;
     }
 }
+@media (max-width: 768px) {
+    .grid .grid-item {
+        width: calc(50% - 20px);
+    }
+}
 
 @media(max-width : 574px) {
     .toggle-button{
@@ -217,5 +232,8 @@ form.search-button::after {
 
     .collapse-toggle {
         max-height: 500px;
+    }
+    .grid .grid-item {
+        width: calc(100% - 20px);
     }
 }
