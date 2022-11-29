@@ -22,4 +22,19 @@ const swiper = new Swiper(".swiper-container", {
   autoplay: {
     delay: 3000,
   },
+  // responsive breakpoints
+  breakpoints: {
+    "@0": {
+      slidesPerView: 2,
+    },
+    "@1.00": {
+      slidesPerView: 3,
+    },
+    "@1.25": {
+      slidesPerView: 4,
+    },
+    "@1.50": {
+      slidesPerView: 5,
+    },
+  },
 });
