@@ -30,6 +30,8 @@ a {
 * > * {
     box-sizing: border-box;
 }
+/* root styling */
+
 /* global styling */
 .text-light {
     color: var(--light);
@@ -103,7 +105,7 @@ a {
 
 /* section styling */
 
-/*-- Navigation Menu -- */
+/* Navigation Menu */
 .navbar {
     position: relative;
     display: flex;
@@ -145,6 +147,7 @@ a {
 .toggle-button:focus {
     outline: none;
 }
+/* Navigation Menu */
 
 /* Main Section */
 
