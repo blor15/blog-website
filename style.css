@@ -232,6 +232,10 @@ a {
 
 }
 
+#footer .featured-items .flex-item { 
+    margin-bottom: 10px;
+}
+
 /* Footer */
 
 /* Search button */
