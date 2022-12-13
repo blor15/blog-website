@@ -236,6 +236,12 @@ a {
     margin-bottom: 10px;
 }
 
+#footer .tags a {
+    border-radius: 40px;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
 /* Footer */
 
 /* Search button */
